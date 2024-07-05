@@ -19,7 +19,7 @@ pipeline {
                     }
                 }
     }
-    post {
+    post { 
         always {
             // Archive the Checkstyle results
             archiveArtifacts artifacts: '**/target/checkstyle-result.xml', allowEmptyArchive: true
