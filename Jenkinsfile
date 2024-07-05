@@ -9,6 +9,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from the repository
+
                 checkout scm
             }
         }
